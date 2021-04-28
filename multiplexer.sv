@@ -53,12 +53,12 @@ module multiplexer
 	
 	//one channel
 	input 	logic [channel_width-1:0] 	avsi_one_channel,
-	input 	logic [data_width-1:0] 		  avsi_one_data,
-	input 	logic 						          avsi_one_valid,
-	input 	logic 						          avsi_one_sop,
-	input 	logic 						          avsi_one_eop,
-	input 	logic [empty_width-1:0]		  avsi_one_empty,
-	output 	logic 						          avsi_one_ready,
+	input 	logic [data_width-1:0] 		avsi_one_data,
+	input 	logic 						avsi_one_valid,
+	input 	logic 						avsi_one_sop,
+	input 	logic 						avsi_one_eop,
+	input 	logic [empty_width-1:0]		avsi_one_empty,
+	output 	logic 						avsi_one_ready,
 	
 	//two channel
 	input 	logic [channel_width-1:0] 	avsi_two_channel,
